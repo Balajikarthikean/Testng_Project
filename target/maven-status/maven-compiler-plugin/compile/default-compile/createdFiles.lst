@@ -1,0 +1,6 @@
+com\utility\Configuration.class
+com\base\BaseClass.class
+com\pom\Home_PageTN.class
+com\utility\FileReaderManager.class
+com\poma\PageObjectManager.class
+com\pom\SelectFlight.class
