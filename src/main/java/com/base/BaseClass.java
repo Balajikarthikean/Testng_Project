@@ -141,6 +141,7 @@ public class BaseClass {
 	protected static void clickButton(WebElement element) throws InterruptedException {
 		Thread.sleep(5000);
 		element.click();
+		
 	}
 
 //dropDownObject
