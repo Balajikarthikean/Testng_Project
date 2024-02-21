@@ -75,30 +75,30 @@ public class Runner_Class extends BaseClass {
     	Thread.sleep(10000);
     	passInput(pom.getSF().getEnterDataPincode(), "600001");
 		//passInput(pom.getSF().getEnterDataPincode(), "600000");
-//		clickButton(pom.getSF().getTickCheckbox());
-//		Thread.sleep(20000);
-//		actionmoveElement(pom.getSF().getClickproceed());
+		clickButton(pom.getSF().getTickCheckbox());
+		Thread.sleep(20000);
+		actionmoveElement(pom.getSF().getClickproceed());
 		
-//		clickButton(pom.getSF().getGenderselect());
-//		Thread.sleep(30000);
-//		selectbyIndex(pom.getSF().getGenderselect(), 1);
-//		Thread.sleep(10000);
-//		clickButton(pom.getSF().getFirstname());
-//		Thread.sleep(5000);
-//		passInput(pom.getSF().getFirstname(), "KR");
-//		clickButton(pom.getSF().getLastname());
-//		Thread.sleep(5000);
-//		passInput(pom.getSF().getLastname(), "BK");
-//		clickButton(pom.getSF().getEnteremail());
-//		Thread.sleep(3000);
-//		passInput(pom.getSF().getEnteremail(),"qwert@gmail.com");
-//		clickButton(pom.getSF().getMobilenumber());
-//		Thread.sleep(3000);
-//		passInput(pom.getSF().getMobilenumber(), "9876543210");
-//		clickButton(pom.getSF().getClickproceed());
-//		clickButton(pom.getSF().getClickthatsright());
+		clickButton(pom.getSF().getGenderselect());
+		Thread.sleep(30000);
+		selectbyIndex(pom.getSF().getGenderselect(), 1);
+		Thread.sleep(10000);
+		clickButton(pom.getSF().getFirstname());
+		Thread.sleep(5000);
+		passInput(pom.getSF().getFirstname(), "KR");
+		clickButton(pom.getSF().getLastname());
+		Thread.sleep(5000);
+		passInput(pom.getSF().getLastname(), "BK");
+		clickButton(pom.getSF().getEnteremail());
+		Thread.sleep(3000);
+		passInput(pom.getSF().getEnteremail(),"qwert@gmail.com");
+		clickButton(pom.getSF().getMobilenumber());
+		Thread.sleep(3000);
+		passInput(pom.getSF().getMobilenumber(), "9876543210");
+		clickButton(pom.getSF().getClickproceed());
+		clickButton(pom.getSF().getClickthatsright());
 //		
-//		clickButton(pom.getSF().getSelectseats());
-//		clickButton(pom.getSF().getClickPaymenttoproceed());
+		clickButton(pom.getSF().getSelectseats());
+		clickButton(pom.getSF().getClickPaymenttoproceed());
 	}
 }

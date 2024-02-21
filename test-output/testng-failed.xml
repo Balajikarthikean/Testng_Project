@@ -5,6 +5,9 @@
     <classes>
       <class name="com.runner.Runner_Class">
         <methods>
+          <include name="updateDetails"/>
+          <include name="asetup"/>
+          <include name="selectflight"/>
           <include name="pageDetails"/>
         </methods>
       </class> <!-- com.runner.Runner_Class -->

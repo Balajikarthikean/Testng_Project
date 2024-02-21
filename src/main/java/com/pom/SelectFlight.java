@@ -68,7 +68,7 @@ public class SelectFlight extends BaseClass {
 		return enterpincode;
 	}
 	//click and send data in pincode  //label[contains(@class, 'sc-fBWQRz eXHInN') and text()='Enter Pincode']
-	@FindBy(xpath="//label[@for='Pincode']")
+	@FindBy(xpath="//input[@type='tel']")
 	private WebElement enterDataPincode;
 	public WebElement getEnterDataPincode() {
 		return enterDataPincode;
